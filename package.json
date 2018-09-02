@@ -11,6 +11,10 @@
   "author": "Art2B",
   "license": "MIT",
   "devDependencies": {
+    "node-sass": "^4.9.3",
     "parcel": "^1.9.7"
+  },
+  "dependencies": {
+    "hyperapp": "^1.2.8"
   }
 }
