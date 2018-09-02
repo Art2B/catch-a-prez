@@ -1,0 +1,16 @@
+{
+  "name": "catch-a-prez",
+  "version": "1.0.0",
+  "description": "A presentation. Me, myself & I",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Art2B",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.9.7"
+  }
+}
