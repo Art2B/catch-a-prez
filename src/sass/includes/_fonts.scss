@@ -1,0 +1,19 @@
+@font-face {
+  font-family: $font-family;
+  src:  url('../assets/fonts/van-condensed-pro.eot');
+  src:  url('../assets/fonts/van-condensed-pro.eot?#iefix') format("embedded-opentype"),
+        url('../assets/fonts/van-condensed-pro.woff2') format("woff2"),
+        url('../assets/fonts/van-condensed-pro.woff') format("woff"),
+        url('../assets/fonts/van-condensed-pro.ttf') format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: $font-family;
+  src:  url('../assets/fonts/van-condensed-pro-bold.eot');
+  src:  url('../assets/fonts/van-condensed-pro-bold.eot?#iefix') format("embedded-opentype"),
+        url('../assets/fonts/van-condensed-pro-bold.woff2') format("woff2"),
+        url('../assets/fonts/van-condensed-pro-bold.woff') format("woff"),
+        url('../assets/fonts/van-condensed-pro-bold.ttf') format("ttf");
+  font-weight: bold;
+}
