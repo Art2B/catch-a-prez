@@ -2,7 +2,7 @@ import { h, app } from "hyperapp"
 
 import './../sass/index.scss';
 
-import Intro from './slides/intro'
+import HealthWarning from './slides/health_warning'
 
 const state = {}
 
@@ -10,7 +10,7 @@ const actions = {}
 
 const view = (state, actions) => (
   <div>
-    <Intro />
+    <HealthWarning />
   </div>
 )
 

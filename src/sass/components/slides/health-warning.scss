@@ -1,0 +1,17 @@
+.health-warning {
+  background: #131313;
+  color: white;
+  text-align: center;
+  position: relative;
+
+  .inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+  }
+
+  p {
+    width: 60%;
+    margin: 0 auto 15px;
+  }
+}
