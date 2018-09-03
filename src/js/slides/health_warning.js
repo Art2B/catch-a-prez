@@ -1,8 +1,8 @@
-import { h, app } from "hyperapp"
+import React from 'react'
 
 export default ({}) => (
-  <div class="slide health-warning">
-    <div class="inner">
+  <div className="slide health-warning">
+    <div className="inner">
       <h1>Important Health Warning: Photosensitive Seizures</h1>
       <p>A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights or patterns that may appear in video games. Even people with no history of seizures or epilepsy may have an undiagnosed condition that can cause “photosensitive epileptic seizures” while watching awesome presentations.</p>
       <p>Symptoms can include light-headedness, altered vision, eye or face twitching, jerking or shaking of arms or legs, disorientation, confusion, momentary loss of awareness, and loss of consciousness or convulsions that can lead to injury from falling down or striking nearby objects. <strong>Immediately stop playing and consult a doctor if you experience any of these symptoms.</strong></p>

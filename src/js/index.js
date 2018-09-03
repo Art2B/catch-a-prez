@@ -1,17 +1,11 @@
-import { h, app } from "hyperapp"
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 import './../sass/index.scss';
 
-import HealthWarning from './slides/health_warning'
+import App from './components/app';
 
-const state = {}
-
-const actions = {}
-
-const view = (state, actions) => (
-  <div>
-    <HealthWarning />
-  </div>
-)
-
-app(state, actions, view, document.body)
+ReactDOM.render(
+  <App />,
+  document.getElementById('root'),
+);
